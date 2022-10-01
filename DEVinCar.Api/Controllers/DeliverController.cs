@@ -8,11 +8,11 @@ using System.Runtime.ConstrainedExecution;
 namespace DEVinCar.Api.Controllers
 {
     [ApiController]
-    [Route("api/deliveries")]
-    public class DeliveriesController : ControllerBase
+    [Route("api/deliver")]
+    public class DeliverController : ControllerBase
     {
         private readonly DevInCarDbContext _context;
-        public DeliveriesController(DevInCarDbContext context)
+        public DeliverController(DevInCarDbContext context)
         {
             _context = context;
         }

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace DEVinCar.Api.Controllers;
 
 [ApiController]
-[Route("api/states")]
+[Route("api/state")]
 public class StatesController : ControllerBase
 {
     private readonly DevInCarDbContext _context;
